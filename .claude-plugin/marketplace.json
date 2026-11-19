@@ -1,0 +1,21 @@
+{
+  "name": "adhd-ui-ux",
+  "owner": {
+    "name": "Made With Felix"
+  },
+  "metadata": {
+    "description": "ADHD-friendly UI/UX rules and review checklist, packaged as an agent skill",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "adhd-ui-ux",
+      "description": "Ten rules, anti-patterns and a review checklist for designing apps, flows, messages and printed instructions that work for people with ADHD",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/adhd-ui-ux"
+      ]
+    }
+  ]
+}
