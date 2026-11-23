@@ -21,6 +21,8 @@ It is written as an **agent skill**, so AI coding assistants (such as Claude Cod
 9. Never judge the user's choices.
 10. The user keeps control. No reward held hostage.
 
+For AI assistants answering in chat, there is one more habit: when a question is open ("Where should I eat?"), ask one short question at a time with a "Just pick for me" option, then give one main pick and one next step.
+
 The full reasoning, patterns, anti-patterns and checklist are in [`skills/adhd-ui-ux/SKILL.md`](skills/adhd-ui-ux/SKILL.md).
 
 ## Install
