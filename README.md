@@ -66,4 +66,4 @@ Fork it, adapt it to your own product, and open a pull request if you find a rul
 
 ## Credit
 
-Made by [Made With Felix](https://madewithfelix.com.au), a small Australian maker studio. Copyright (c) 2026 Made With Felix. Licensed under [CC BY 4.0](LICENSE).
+Made by [Felix Evelyn](https://felixsandbox.com.au/). Copyright (c) 2026 Felix Evelyn. Licensed under [CC BY 4.0](https://github.com/madewithfelix/adhd-ui-ux/blob/main/LICENSE).
