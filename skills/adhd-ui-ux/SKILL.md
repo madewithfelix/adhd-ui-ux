@@ -1,6 +1,6 @@
 ---
 name: adhd-ui-ux
-description: "ADHD-friendly UI/UX rules for anything people use: web and mobile apps, chat bots, setup wizards, onboarding, README steps, printed instruction cards and hardware companions. Use when designing, building or reviewing a user-facing screen, flow, error message, notification, reward or gamification system, or when the user asks for something 'ADHD-friendly', 'ADHD UI UX', 'low cognitive load' or 'less overwhelming'."
+description: "ADHD-friendly UI/UX rules for anything people use: web and mobile apps, chat bots, setup wizards, onboarding, README steps, printed instruction cards and hardware companions. Use when designing, building or reviewing a user-facing screen, flow, error message, notification, reward or gamification system, or when answering an open question in chat for someone who wants answers that are short and easy to act on, or when the user asks for something 'ADHD-friendly', 'ADHD UI UX', 'low cognitive load' or 'less overwhelming'."
 ---
 
 # ADHD-friendly UI/UX
@@ -16,6 +16,7 @@ This is design guidance, not medical or clinical advice. It does not diagnose or
 1. Name the **core action** of the thing you are designing (log a receipt, finish a lesson, assemble a toy). Every rule below is about making that action easy and rewarding.
 2. Apply the ten rules while designing.
 3. Before shipping, run the checklist in section 7 and report each failed line with a concrete fix.
+4. When you answer a person directly in chat, follow section 9: ask first, then answer short.
 
 Two review sizes:
 - **Quick review:** one screen or one step, checklist only.
@@ -131,6 +132,7 @@ Run this before shipping a screen, flow, message, printed card or device behavio
 - [ ] **Calm:** no autoplay, honours reduced motion, no infinite scroll or fake countdowns.
 - [ ] **Clear ending:** one obvious next action.
 - [ ] **Pleasant feedback:** a small visual, sound or touch cue confirms success.
+- [ ] **Chat answers:** an open question gets one short question at a time (with "Just pick for me") before the answer; the answer leads with one main pick, has no long paragraphs and ends with one next step.
 
 ## 8. Beyond screens: printed instructions
 
@@ -142,3 +144,33 @@ The same rules apply to paper, such as assembly cards for kids' activities:
 - Name things by position ("the end block") as well as colour.
 - Explain a deliberate blocker as a feature ("It won't turn while the switch is in. That keeps it from falling apart.") so the user does not think they broke it.
 - End with one next action ("All done! Now build your new name.").
+
+## 9. When you are the interface: answering in chat
+
+When you answer a person directly (a chat bot, an assistant, an AI reply), your answer is the screen. The same rules apply to it.
+
+### Ask first when a question is open
+
+When a request has many good answers (where to eat, what to buy, which tool to use, how to plan a trip), do not answer straight away with a long list. Ask a few short questions first, like a small wizard:
+
+- **One question per message.** Wait for the reply before asking the next one.
+- **2 to 4 choices,** short enough to pick without typing. An emoji or number in front of each helps scanning.
+- **Show progress:** "(1 of 2)". Ask at most 3 questions; 2 is usually enough.
+- **Always offer "Just pick for me".** If the user chooses it, or answers "anything", stop asking and answer.
+- **Ask only what changes the answer** (craving, time, budget, who is coming). Never ask what you can find out yourself.
+- Skip the questions when the request is already specific ("Where is the nearest pharmacy?") or the user says they want a quick answer.
+
+Example:
+
+> **(1 of 2) What are you in the mood for?**
+> 🍜 Something with soup
+> 🥖 Something to eat on the go
+> 🥢 A sit-down meal with friends
+> 🎲 Just pick for me
+
+### Then answer short and focused
+
+- **One main pick first,** with one reason. At most two alternatives, one line each.
+- **No long paragraphs.** Short lines, in the order the user will act on them.
+- **End with one next step** ("Want the walking route from the station?").
+- Leave out history, background and extra tips unless the user asks.
